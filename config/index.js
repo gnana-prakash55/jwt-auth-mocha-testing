@@ -1,9 +1,9 @@
 const config = {
     development : {
-       mongodb_uri: " mongodb+srv://sanjay_usr:sanjaydb@san0.vz1lm.mongodb.net/development?retryWrites=true&w=majority"
+       mongodb_uri: process.env.MONGODB_URI_DEV
     },
     testing : {
-       mongodb_uri: " mongodb+srv://sanjay_usr:sanjaydb@san0.vz1lm.mongodb.net/testing?retryWrites=true&w=majority"
+       mongodb_uri: process.env.MONGODB_URI_TEST
     }
 } 
 
