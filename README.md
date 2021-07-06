@@ -1,1 +1,1 @@
-# nodejs-jwt-authentication
+# nodejs-jwt-auth-mocha testing
